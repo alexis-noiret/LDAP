@@ -1,15 +1,15 @@
-# Infrastructure LDAP - Identity & Access Management
+# 🗂️ Infrastructure LDAP - Identity & Access Management
 
 ![Linux](https://img.shields.io/badge/Linux-Debian%2FUbuntu-blue)
 ![Service](https://img.shields.io/badge/Service-LDAP-green)
 ![Domain](https://img.shields.io/badge/Domain-IAM%20%2F%20Security-red)
 ![Level](https://img.shields.io/badge/Level-Intermediate%2B-orange)
 
-Déploiement d’un annuaire LDAP permettant la **centralisation des identités**, la **gestion des accès** et la **sécurisation de l’authentification** dans un environnement Linux.
+> Déploiement d’un annuaire LDAP permettant la **centralisation des identités**, la **gestion des accès** et la **sécurisation de l’authentification** dans un environnement Linux.
 
 ---
 
-## Résumé exécutif
+## 📋 Présentation
 
 Implémentation d’une solution **LDAP (OpenLDAP)** pour remplacer la gestion locale des comptes par une **authentification centralisée**, alignée avec les pratiques utilisées en entreprise (Active Directory / IAM).
 
@@ -21,7 +21,7 @@ Ce projet met l’accent sur :
 
 ---
 
-## Périmètre technique
+## 🧩 Périmètre technique
 
 * OS : Debian / Ubuntu
 * Service : OpenLDAP
@@ -30,7 +30,7 @@ Ce projet met l’accent sur :
 
 ---
 
-## Réalisations clés
+## ✅ Réalisations clés
 
 * Déploiement complet d’un serveur **OpenLDAP**
 * Conception d’un **DIT (Directory Information Tree)** cohérent
@@ -41,7 +41,7 @@ Ce projet met l’accent sur :
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ```mermaid
 graph TD
@@ -52,7 +52,7 @@ graph TD
 
 ---
 
-## Modélisation de l’annuaire
+## 🗂️ Modélisation de l’annuaire
 
 ```text
 dc=entreprise,dc=local
@@ -66,7 +66,7 @@ dc=entreprise,dc=local
 
 ---
 
-## Exemple d’entrée (LDIF)
+## 🔧 Exemple d’entrée (LDIF)
 
 ```ldif
 dn: uid=user1,ou=users,dc=entreprise,dc=local
@@ -79,7 +79,7 @@ mail: user1@entreprise.local
 
 ---
 
-## Sécurité implémentée
+## 🔒 Sécurité implémentée
 
 * Centralisation des identités
 * Suppression de la gestion locale des comptes
@@ -89,7 +89,7 @@ mail: user1@entreprise.local
 
 ---
 
-## Tests et validation
+## 🧪 Tests et validation
 
 * Recherche LDAP :
 
@@ -103,7 +103,7 @@ ldapsearch -x
 
 ---
 
-## Compétences démontrées
+## 🧠 Compétences démontrées
 
 * Identity & Access Management (IAM)
 * Administration Linux
@@ -114,7 +114,7 @@ ldapsearch -x
 
 ---
 
-## Limites
+## ⚠️ Limites
 
 * Architecture mono-serveur
 * Pas de réplication LDAP
@@ -123,7 +123,7 @@ ldapsearch -x
 
 ---
 
-## Perspectives d’amélioration
+## 🔭 Perspectives d’amélioration
 
 * Implémentation de **LDAPS (TLS)**
 * Mise en place d’ACL fines
@@ -133,7 +133,7 @@ ldapsearch -x
 
 ---
 
-## Valeur professionnelle
+## 💼 Valeur professionnelle
 
 Projet directement aligné avec les environnements d’entreprise :
 
@@ -143,7 +143,7 @@ Projet directement aligné avec les environnements d’entreprise :
 
 ---
 
-## Structure
+## 📁 Structure du dépôt
 
 ```text
 .
@@ -153,7 +153,7 @@ Projet directement aligné avec les environnements d’entreprise :
 
 ---
 
-## Documentation
+## 📖 Documentation
 
 Le fichier `LDAP.pdf` contient :
 
@@ -163,7 +163,9 @@ Le fichier `LDAP.pdf` contient :
 
 ---
 
-## Auteur
+## 👤 Auteur
 
-Alexis Noiret
-Étudiant en cybersécurité
+**Alexis Noiret** — Bachelor IT Cybersécurité, La Plateforme
+
+- Portfolio : [alexis-noiret.students-laplateforme.io](https://alexis-noiret.students-laplateforme.io)
+- GitHub : [github.com/alexis-noiret](https://github.com/alexis-noiret)
